@@ -36,9 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/TestGraph/Editor/FlowChat.cs" />
-     <None Include="Assets/TestGraph/Editor/FlowChat.uss" />
-     <None Include="Assets/TestGraph/Editor/FlowChat.uxml" />
+     <Compile Include="Assets/TestGraph/Editor/SampleGraphEditorWindow.cs" />
+     <Compile Include="Assets/TestGraph/Editor/SampleNode.cs" />
+     <Compile Include="Assets/TestGraph/Editor/SampleGraphView.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.1f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
