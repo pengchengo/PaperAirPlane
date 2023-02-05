@@ -1,0 +1,159 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/gamehappy/Workspace/PaperGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57481
+Successfully changed project path to: /Users/gamehappy/Workspace/PaperGame
+/Users/gamehappy/Workspace/PaperGame
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1c1 (3e9f4b065a9d)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gamehappy/Workspace/PaperGame/Assets
+GfxDevice: creating device client; threaded=0
+2023-02-05 16:41:54.118 Unity[72918:2028731] Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+2023-02-05 16:41:54.118 Unity[72918:2028731] Metal devices available: 2
+2023-02-05 16:41:54.118 Unity[72918:2028731] 0: AMD Radeon Pro 5300M (high power)
+2023-02-05 16:41:54.118 Unity[72918:2028731] 1: Intel(R) UHD Graphics 630 (low power)
+2023-02-05 16:41:54.118 Unity[72918:2028731] Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56918
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000406 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 19.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.471 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.1f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 32.7 MB.
+System memory in use after: 32.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 2.230209 ms (FindLiveObjects: 0.205528 ms CreateObjectMapping: 0.059778 ms MarkObjects: 1.841631 ms  DeleteObjects: 0.121882 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TestGraph
+  artifactKey: Guid(6274dd93da0ae4d91add05a1494582db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestGraph using Guid(6274dd93da0ae4d91add05a1494582db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3b2e800c1bfe6ecf2bc0c1c926199b') in 0.004674 seconds
+  Import took 0.007095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 813.894279 seconds.
+  path: Assets/TestGraph/FlowChat.uss
+  artifactKey: Guid(91382030ee5964847880d3358ba005fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestGraph/FlowChat.uss using Guid(91382030ee5964847880d3358ba005fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ad9fdec0f75c4951eb73dabcef716f') in 1.343450 seconds
+  Import took 1.345276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/TestGraph/FlowChat.uxml
+  artifactKey: Guid(2c8a4aee4ba37479e939f9b88dec6bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestGraph/FlowChat.uxml using Guid(2c8a4aee4ba37479e939f9b88dec6bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fedc16425ea99c85c5264bbc1f06b69') in 0.102400 seconds
+  Import took 0.104210 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000257 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.1 MB.
+System memory in use after: 188.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1565.
+Total: 1.689041 ms (FindLiveObjects: 0.155678 ms CreateObjectMapping: 0.037666 ms MarkObjects: 1.445517 ms  DeleteObjects: 0.049336 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.053864 seconds.
+  path: Assets/TestGraph/FlowChat.cs
+  artifactKey: Guid(7b08a663d809946a2a4fc9c335b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestGraph/FlowChat.cs using Guid(7b08a663d809946a2a4fc9c335b530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac5e35ab451bb0a0350bac89095f295') in 0.326318 seconds
+  Import took 0.328189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.488088 seconds.
+  path: Assets/TestGraph/Editor
+  artifactKey: Guid(0c2a7da8715054a31adbcd006417b683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestGraph/Editor using Guid(0c2a7da8715054a31adbcd006417b683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2b72614c020cab63ea23ee9bc76e97') in 0.001382 seconds
+  Import took 0.003027 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.2 MB.
+System memory in use after: 267.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1568.
+Total: 1.643104 ms (FindLiveObjects: 0.140012 ms CreateObjectMapping: 0.032870 ms MarkObjects: 1.420385 ms  DeleteObjects: 0.048888 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
