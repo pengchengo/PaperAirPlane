@@ -10,7 +10,7 @@ public class SampleGraphEditorWindow : EditorWindow
 
     void OnEnable()
     {
-        rootVisualElement.Add(new SampleGraphView()
+        rootVisualElement.Add(new SampleGraphView(this)
         {
           style  = { flexGrow = 1}
         });

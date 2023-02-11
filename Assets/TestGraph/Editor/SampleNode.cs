@@ -1,6 +1,6 @@
 using UnityEditor.Experimental.GraphView;
  
-public class SampleNode : Node
+public abstract class SampleNode : Node
 {
     public SampleNode()
     {

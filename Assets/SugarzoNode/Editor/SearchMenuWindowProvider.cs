@@ -111,7 +111,10 @@ namespace SugarFrame.Node
                 .Where(x => !x.IsAbstract)
                 .Where(x => !x.IsGenericTypeDefinition)
                 .Where(x => type.IsAssignableFrom(x));
-
+            Debug.Log("start");
+            foreach(var x in q){
+                Debug.Log(x);
+            }
             return q.ToList();
         }
     }

@@ -59,6 +59,9 @@
      <Compile Include="Assets/SugarzoNode/Editor/EditorWindow/EditorWindow_NodeCreator.cs" />
      <Compile Include="Assets/SugarzoNode/Editor/NodeView/BranchNodeView.cs" />
      <Compile Include="Assets/SugarzoNode/Editor/EditorDelayCall.cs" />
+     <Compile Include="Assets/TestGraph/Editor/SampleChildNode.cs" />
+     <Compile Include="Assets/TestGraph/Editor/SampleSearchMenuWindowProvider.cs" />
+     <Compile Include="Assets/TestGraph/Editor/SampleChild2Node.cs" />
      <None Include="Assets/SugarzoNode/Editor/UIBuilder/FlowChart.uss" />
      <None Include="Assets/SugarzoNode/Editor/UIBuilder/FlowChart.uxml" />
     <Reference Include="UnityEngine">
