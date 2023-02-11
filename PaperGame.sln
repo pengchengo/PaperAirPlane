@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{98e2e848-2b86-ce18-db85-570d12aef884}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{1ad3848c-127a-14ae-47ed-dde2490383b1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{f1a01da7-f787-0972-d985-e9217c312e1e}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{0b49cd0e-27d3-9dba-c99e-6bee38c8887f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{b018f798-c6e7-06ba-2c29-1fafd759b9a4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +18,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{98e2e848-2b86-ce18-db85-570d12aef884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98e2e848-2b86-ce18-db85-570d12aef884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ad3848c-127a-14ae-47ed-dde2490383b1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ad3848c-127a-14ae-47ed-dde2490383b1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f1a01da7-f787-0972-d985-e9217c312e1e}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f1a01da7-f787-0972-d985-e9217c312e1e}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0b49cd0e-27d3-9dba-c99e-6bee38c8887f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0b49cd0e-27d3-9dba-c99e-6bee38c8887f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b018f798-c6e7-06ba-2c29-1fafd759b9a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b018f798-c6e7-06ba-2c29-1fafd759b9a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
